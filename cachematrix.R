@@ -31,12 +31,13 @@ cacheSolve <- function(a, ...) {
         return(invr)
 }
 
+
 a = rbind(c(1, -1/4), c(-1/4, 1))
 m = makeCacheMatrix(a)
 m$get()
 
 
-cacheSolve(m)  # return value not from cache
+cacheSolve(m)  ## return value not from cache
 
 
-cacheSolve(m) # return value from cache
+cacheSolve(m) ## return value from cache
