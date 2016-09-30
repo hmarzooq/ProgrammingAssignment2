@@ -36,7 +36,7 @@ m = makeCacheMatrix(a)
 m$get()
 
 
-cacheSolve(m)
+cacheSolve(m)  # return value not from cache
 
 
-cacheSolve(m)
+cacheSolve(m) # return value from cache
